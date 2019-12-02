@@ -9,8 +9,7 @@ class CreateUsers < ActiveRecord::Migration[6.0]
       t.string :img
       t.integer :moveone_id
       t.integer :movethree_id
-      t.string :movefourid
-      t.string :integer
+      t.integer :movefourid
 
       t.timestamps
     end

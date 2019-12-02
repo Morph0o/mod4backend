@@ -53,8 +53,7 @@ ActiveRecord::Schema.define(version: 2019_12_02_171955) do
     t.string "img"
     t.integer "moveone_id"
     t.integer "movethree_id"
-    t.string "movefourid"
-    t.string "integer"
+    t.integer "movefourid"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
