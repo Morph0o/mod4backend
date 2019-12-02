@@ -1,0 +1,2 @@
+class MonsterMove < ApplicationRecord
+end

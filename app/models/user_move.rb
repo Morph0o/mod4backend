@@ -1,0 +1,2 @@
+class UserMove < ApplicationRecord
+end
