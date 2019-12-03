@@ -49,7 +49,6 @@ ActiveRecord::Schema.define(version: 2019_12_03_024452) do
 
   create_table "users", force: :cascade do |t|
     t.string "name"
-    t.string "string"
     t.integer "str"
     t.integer "hp"
     t.string "desc"
