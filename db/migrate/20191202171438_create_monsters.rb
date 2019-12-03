@@ -6,7 +6,6 @@ class CreateMonsters < ActiveRecord::Migration[6.0]
       t.integer :hp
       t.string :desc
       t.string :img
-      t.integer :move_id
 
       t.timestamps
     end
