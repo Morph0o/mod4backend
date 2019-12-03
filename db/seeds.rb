@@ -38,15 +38,15 @@ tiff = User.find_or_create_by(name: 'Tiffany', str: rand(1..10), hp:rand(500..10
 mickey = User.find_or_create_by(name: 'Mickey', str: rand(1..10), hp: rand(500..1000), desc: 'The quiet one, lurking and waiting to strike',img: 'https://66.media.tumblr.com/0877577d559aa77e24797bb8910810a2/tumblr_n5stualp4O1sa5jn6o7_1280.jpg')
 
 #user moves
-tiffpunch = UserMove.create(user_id:tiff.id move_id:punch.id)
-tiffslap = UserMove.create(user_id:tiff.id move_id:slap.id)
-tiffknife = UserMove.create(user_id:tiff.id move_id:knife.id)
+tiffpunch = Usermove.create(user_id:tiff.id, move_id: punch.id)
+tiffslap = Usermove.create(user_id:tiff.id, move_id: slap.id)
+tiffknife = Usermove.create(user_id:tiff.id, move_id: knife.id)
 
-mickeyroundhouse = UserMove.create(user_id:mickey.id move_id:roundhouse.id)
-mickeyelbow = UserMove.create(user_id:mickey.id move_id:elbow.id)
-mickeysledgehammer = UserMove.create(user_id:mickey.id move_id:sledgehammer.id)
+mickeyroundhouse = Usermove.create(user_id:mickey.id, move_id:roundhouse.id)
+mickeyelbow = Usermove.create(user_id:mickey.id, move_id:elbow.id)
+mickeysledgehammer = Usermove.create(user_id:mickey.id, move_id:sledgehammer.id)
 
-#monster moves
-feralghoulbite = MonsterMove.create(monster_id:feralghoul.id move_id:bite.id)
-orgeelbow = MonsterMove.create(monster_id:orge.id move_id:elbow.id)
-spideracid = MonsterMove.create(monster_id:spider.id move_id:acid.id)
+#monster movesb
+feralghoulbite = Monstermove.create(monster_id:feralghoul.id, move_id:bite.id)
+orgeelbow = Monstermove.create(monster_id:orge.id, move_id:elbow.id)
+spideracid = Monstermove.create(monster_id:spider.id, move_id:acid.id)
