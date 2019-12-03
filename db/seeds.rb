@@ -8,6 +8,8 @@
 Move.destroy_all
 Monster.destroy_all
 User.destroy_all
+Monstermove.destroy_all
+Usermove.destroy_all
 
 #  monster_moves
 attack_number = rand(20..50)
